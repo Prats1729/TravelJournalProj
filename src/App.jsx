@@ -1,5 +1,7 @@
 import './App.css'
 import { Locations } from './data/locationData';
+import markerImg from './assets/marker.png';
+import globeImg from './assets/globe.png';
 
 export default function App() {
   return (
@@ -16,7 +18,7 @@ function Header(){
   return (
     <header>
       <nav className="header">
-        <img src="/src/assets/globe.png" alt="globe" />
+        <img src={globeImg} alt="globe" />
         <span>my travel journal</span>
       </nav>
     </header>
@@ -37,7 +39,7 @@ function Card(props){
       </div>
       <div className="loc-info">
         <div className="location">
-          <img src="src/assets/marker.png" alt="marker" />
+          <img src={markerImg} alt="marker" />
           <span>{location}</span>
           <a
             href={gmapLink}
