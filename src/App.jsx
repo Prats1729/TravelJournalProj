@@ -60,6 +60,7 @@ function Card(props){
 const locations = Locations.map(location => {
   return (
     <Card 
+      key={location.id}
       mainImg={location.mainImg}
       location={location.location}
       gmapLink={location.gmapLink}
