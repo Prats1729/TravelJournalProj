@@ -2,6 +2,8 @@
 
 A clean and modern travel journal application built with React and Vite. This project showcases various travel destinations with detailed information, including locations, dates, and interesting facts.
 
+[**Live Demo**](https://prats1729.github.io/TravelJournalProj)
+
 ## Features
 
 - **Dynamic Content:** Renders travel entries dynamically from a central data source.
@@ -26,7 +28,7 @@ A clean and modern travel journal application built with React and Vite. This pr
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Prats1729/TravelJournalProj.git
    ```
 2. Navigate to the project directory:
    ```bash
@@ -45,12 +47,14 @@ npm run dev
 ```
 Open [http://localhost:5173](http://localhost:5173) in your browser to see the app.
 
-### Build
+### Deployment
 
-To create a production-ready build:
-```bash
-npm run build
-```
+The project is deployed to GitHub Pages. To deploy updates:
+
+1. Build and deploy:
+   ```bash
+   npm run deploy
+   ```
 
 ## Data Structure
 
