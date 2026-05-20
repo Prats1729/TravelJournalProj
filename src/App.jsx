@@ -61,12 +61,7 @@ const locations = Locations.map(location => {
   return (
     <Card 
       key={location.id}
-      mainImg={location.mainImg}
-      location={location.location}
-      gmapLink={location.gmapLink}
-      locationName={location.locationName}
-      date={location.date}
-      facts={location.facts}
+      {...location} // this is basically saying each property like location = {location.location}
     />
   );
 });
